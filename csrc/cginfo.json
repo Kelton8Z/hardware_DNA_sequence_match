@@ -1,0 +1,93 @@
+{
+    "PEModules": [],
+    "CurCompileModules": [
+        "...MASTER...",
+        "task1_test"
+    ],
+    "CompileStatus": "Successful",
+    "MlibObjs": {},
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "mapLetter": [
+            "mapLetter",
+            "wzpve",
+            "module"
+        ],
+        "task1_test": [
+            "task1_test",
+            "IS2kx",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "PrevCompiledModules": {
+        "task1_test": {
+            "IS2kx_d": {
+                "archive": "archive.418/_37534_archive_1.a",
+                "bytes": 58714,
+                "mod": "task1_test",
+                "out": "IS2kx_d.o",
+                "mode": 4
+            }
+        },
+        "mapLetter": {
+            "wzpve_d": {
+                "archive": "archive.418/_prev_archive_1.a",
+                "bytes": 8321,
+                "mod": "mapLetter",
+                "mode": 4,
+                "out": "wzpve_d.o"
+            }
+        },
+        "std": {
+            "reYIK_d": {
+                "archive": "archive.418/_prev_archive_1.a",
+                "bytes": 29004,
+                "mod": "std",
+                "mode": 4,
+                "out": "reYIK_d.o"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "archive": "archive.418/_37534_archive_1.a",
+                "bytes": 7336,
+                "mod": "...MASTER...",
+                "out": "amcQw_d.o",
+                "mode": 4
+            }
+        }
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "Misc": {
+        "cwd": "/afs/ece.cmu.edu/usr/zhuoran2/Private/240/Lab5",
+        "daidir_abs": "/afs/ece.cmu.edu/usr/zhuoran2/Private/240/Lab5/simv.daidir",
+        "daidir": "simv.daidir",
+        "csrc_abs": "/afs/ece.cmu.edu/usr/zhuoran2/Private/240/Lab5/csrc",
+        "csrc": "csrc",
+        "default_output_dir": "csrc",
+        "archive_dir": "archive.418"
+    },
+    "CompileStrategy": "fullobj",
+    "CurCompileUdps": {},
+    "stat": {
+        "nMops": 4191
+    },
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 83426
+    },
+    "CompileProcesses": [
+        "cgproc.37534.json"
+    ]
+}

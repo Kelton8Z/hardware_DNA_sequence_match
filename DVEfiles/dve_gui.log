@@ -1,0 +1,566 @@
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version J-2014.12-SP3-1_Full64; Runtime version J-2014.12-SP3-1_Full64;  Apr 18 10:06 2020
+VCD+ Writer J-2014.12-SP3-1_Full64 Copyright (c) 1991-2014 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/zhuoran2/Private/240/Lab5/inter.vpd' was opened successfully.
+datapath
+datapath
+corona virus
+datapath
+corona virus
+                   0 state = getting_ready, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 000, pattern data = , nucleo mem addr = 0000, nucleo data = C, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000000, ready = 1, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 1, isNeg = 0, isLetter = 0, count =  x
+isPos :1
+main
+isPos
+datapath
+corona virus
+datapath
+isPos :0
+main
+isNeg
+                   5 state = main, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 060, pattern data = 9, nucleo mem addr = 0001, nucleo data = C, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000000, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 1, isLetter = 0, count =  x
+datapath
+datapath
+print
+0
+datapath
+print
+0
+                  15 state = neg, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 1,pattern mem addr = 061, pattern data = C, nucleo mem addr = 0001, nucleo data = C, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000001, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  9
+datapath
+print
+0
+datapath
+print
+0
+                  25 state = neg, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 1,pattern mem addr = 061, pattern data = C, nucleo mem addr = 0002, nucleo data = A, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000010, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  8
+                  35 state = neg, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 1,pattern mem addr = 061, pattern data = C, nucleo mem addr = 0003, nucleo data = A, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000011, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  7
+                  45 state = neg, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 1,pattern mem addr = 061, pattern data = C, nucleo mem addr = 0004, nucleo data = A, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000100, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  6
+datapath
+print
+0
+                  55 state = neg, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 1,pattern mem addr = 061, pattern data = C, nucleo mem addr = 0005, nucleo data = T, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000101, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  5
+                  65 state = neg, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 1,pattern mem addr = 061, pattern data = C, nucleo mem addr = 0006, nucleo data = T, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000110, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  4
+                  75 state = neg, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 1,pattern mem addr = 061, pattern data = C, nucleo mem addr = 0007, nucleo data = T, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000111, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  3
+                  85 state = neg, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 1,pattern mem addr = 061, pattern data = C, nucleo mem addr = 0008, nucleo data = T, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000001000, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  2
+datapath
+print
+0
+                  95 state = neg, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 061, pattern data = C, nucleo mem addr = 0009, nucleo data = G, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000001001, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  1
+isPos :0
+main
+isLetter
+datapath
+isPos :0
+main
+isSlash
+                 105 state = main, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 062, pattern data = C, nucleo mem addr = 000a, nucleo data = G, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000001010, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 0, count =  0
+datapath
+datapath
+print
+0
+datapath
+print
+0
+                 115 state = slash1, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 063, pattern data = A, nucleo mem addr = 000a, nucleo data = G, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000001011, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  0
+datapath
+print
+0
+datapath
+print
+0
+                 125 state = slash2, slashOne = 12, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 064, pattern data = T, nucleo mem addr = 000a, nucleo data = G, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000001100, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  0
+datapath
+print
+0
+slash3 state
+datapath
+print
+0
+                 135 state = slash3, slashOne = 11, slashTwo = 11, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 065, pattern data = G, nucleo mem addr = 000a, nucleo data = G, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000001101, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  0
+datapath
+print
+0
+isPos :0
+main
+isLetter
+datapath
+print
+1
+print
+                 145 state = main, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 066, pattern data = A, nucleo mem addr = 000b, nucleo data = G, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000001110, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  0
+datapath
+print
+1
+print
+                 155 state = main, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 067, pattern data = A, nucleo mem addr = 000c, nucleo data = G, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000001111, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  0
+datapath
+corona virus
+isPos :1
+main
+isPos
+                 165 state = main, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 068, pattern data = A, nucleo mem addr = 000d, nucleo data = G, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000010000, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 1, isNeg = 0, isLetter = 0, count =  0
+datapath
+corona virus
+pos state
+datapath
+print
+0
+pos state
+datapath
+print
+0
+pos state
+                 175 state = pos, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 00, barTwo = 00,pattern load low = 1,pattern mem addr = 069, pattern data = T, nucleo mem addr = 000d, nucleo data = G, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000010001, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  3
+datapath
+print
+0
+pos state
+datapath
+print
+0
+                 185 state = pos, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 00, barTwo = 00,pattern load low = 1,pattern mem addr = 069, pattern data = T, nucleo mem addr = 000e, nucleo data = A, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000010010, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  2
+pos state
+datapath
+print
+0
+                 195 state = pos, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 069, pattern data = T, nucleo mem addr = 000f, nucleo data = T, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000010011, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  1
+isPos :0
+main
+isLetter
+datapath
+isPos :0
+main
+isBar
+datapath
+                 205 state = main, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 06a, pattern data = T, nucleo mem addr = 0010, nucleo data = C, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000010100, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 0, count =  0
+datapath
+datapath
+print
+0
+datapath
+print
+0
+                 215 state = bar1, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 06b, pattern data = T, nucleo mem addr = 0010, nucleo data = C, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000010101, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  0
+datapath
+print
+0
+datapath
+print
+0
+                 225 state = bar2, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 00,pattern load low = 0,pattern mem addr = 06c, pattern data = C, nucleo mem addr = 0010, nucleo data = C, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000010110, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  0
+datapath
+print
+0
+isPos :0
+main
+isLetter
+datapath
+isPos :0
+main
+isNeg
+                 235 state = main, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 0,pattern mem addr = 06d, pattern data = C, nucleo mem addr = 0011, nucleo data = C, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000010111, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 1, isLetter = 0, count =  0
+datapath
+datapath
+print
+0
+datapath
+print
+0
+                 245 state = neg, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 0,pattern mem addr = 06e, pattern data = G, nucleo mem addr = 0011, nucleo data = C, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000011000, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  1
+datapath
+print
+0
+isPos :0
+main
+isLetter
+datapath
+corona virus
+isPos :1
+main
+isPos
+                 255 state = main, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 0,pattern mem addr = 06f, pattern data = G, nucleo mem addr = 0012, nucleo data = C, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000011001, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 1, isNeg = 0, isLetter = 0, count =  0
+datapath
+corona virus
+pos state
+datapath
+print
+0
+pos state
+datapath
+print
+0
+pos state
+                 265 state = pos, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 1,pattern mem addr = 070, pattern data = G, nucleo mem addr = 0012, nucleo data = C, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000011010, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  3
+datapath
+print
+0
+pos state
+                 275 state = pos, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 1,pattern mem addr = 070, pattern data = G, nucleo mem addr = 0013, nucleo data = C, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000011011, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  2
+pos state
+datapath
+print
+0
+                 285 state = pos, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 0,pattern mem addr = 070, pattern data = G, nucleo mem addr = 0014, nucleo data = A, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000011100, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  1
+isPos :0
+main
+isLetter
+datapath
+isPos :0
+main
+isNeg
+                 295 state = main, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 0,pattern mem addr = 071, pattern data = 3, nucleo mem addr = 0015, nucleo data = A, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000011101, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 1, isLetter = 0, count =  0
+datapath
+datapath
+print
+0
+datapath
+print
+0
+                 305 state = neg, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 1,pattern mem addr = 072, pattern data = G, nucleo mem addr = 0015, nucleo data = A, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000011110, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  3
+datapath
+print
+0
+                 315 state = neg, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 1,pattern mem addr = 072, pattern data = G, nucleo mem addr = 0016, nucleo data = A, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000011111, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  2
+datapath
+print
+0
+                 325 state = neg, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 0,pattern mem addr = 072, pattern data = G, nucleo mem addr = 0017, nucleo data = T, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000100000, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  1
+isPos :0
+main
+isLetter
+datapath
+print
+1
+print
+                 335 state = main, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 0,pattern mem addr = 073, pattern data = A, nucleo mem addr = 0018, nucleo data = T, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000100001, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  0
+datapath
+print
+1
+print
+datapath
+print
+1
+print
+                 345 state = main, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 0,pattern mem addr = 074, pattern data = T, nucleo mem addr = 0019, nucleo data = T, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000100010, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  0
+datapath
+print
+1
+print
+datapath
+print
+1
+print
+                 355 state = main, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 0,pattern mem addr = 075, pattern data = C, nucleo mem addr = 001a, nucleo data = T, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000100011, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  0
+datapath
+print
+1
+print
+datapath
+print
+1
+print
+                 365 state = main, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 0,pattern mem addr = 076, pattern data = C, nucleo mem addr = 001b, nucleo data = G, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000100100, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  0
+datapath
+isPos :0
+main
+end of pattern
+datapath
+                 375 state = main, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 0,pattern mem addr = 077, pattern data = C, nucleo mem addr = 001c, nucleo data = G, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000100101, ready = 0, done = 1, error = 1, found_it = 0, pattern_end = 1, mismatch = 0, isRep = 1, isPos = 0, isNeg = 0, isLetter = 0, count =  0
+datapath
+done state
+                 385 state = Done, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 0,pattern mem addr = 078, pattern data = C, nucleo mem addr = 001d, nucleo data = G, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000100101, ready = 0, done = 1, error = 1, found_it = 0, pattern_end = 1, mismatch = 0, isRep = 1, isPos = 0, isNeg = 0, isLetter = 0, count =  0
+isPos :0
+main
+end of pattern
+                 395 state = main, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 0,pattern mem addr = 079, pattern data = C, nucleo mem addr = 001d, nucleo data = G, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000100101, ready = 0, done = 1, error = 1, found_it = 0, pattern_end = 1, mismatch = 0, isRep = 1, isPos = 0, isNeg = 0, isLetter = 0, count =  0
+$finish called from file "lab5.sv", line 638.
+$finish at simulation time                  405
+Simulation complete, time is 405.
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version J-2014.12-SP3-1_Full64; Runtime version J-2014.12-SP3-1_Full64;  Apr 18 10:11 2020
+VCD+ Writer J-2014.12-SP3-1_Full64 Copyright (c) 1991-2014 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/zhuoran2/Private/240/Lab5/inter.vpd' was opened successfully.
+datapath
+datapath
+corona virus
+datapath
+corona virus
+                   0 state = getting_ready, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 000, pattern data = , nucleo mem addr = 0000, nucleo data = C, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000000, ready = 1, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 1, isNeg = 0, isLetter = 0, count =  x
+isPos :1
+main
+isPos
+datapath
+corona virus
+datapath
+isPos :0
+main
+isNeg
+                   5 state = main, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 060, pattern data = 9, nucleo mem addr = 0001, nucleo data = C, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000000, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 1, isLetter = 0, count =  x
+datapath
+datapath
+print
+0
+datapath
+print
+0
+                  15 state = neg, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 1,pattern mem addr = 061, pattern data = C, nucleo mem addr = 0001, nucleo data = C, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000001, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  9
+datapath
+print
+0
+datapath
+print
+0
+                  25 state = neg, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 1,pattern mem addr = 061, pattern data = C, nucleo mem addr = 0002, nucleo data = A, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000010, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  8
+                  35 state = neg, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 1,pattern mem addr = 061, pattern data = C, nucleo mem addr = 0003, nucleo data = A, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000011, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  7
+                  45 state = neg, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 1,pattern mem addr = 061, pattern data = C, nucleo mem addr = 0004, nucleo data = A, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000100, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  6
+datapath
+print
+0
+                  55 state = neg, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 1,pattern mem addr = 061, pattern data = C, nucleo mem addr = 0005, nucleo data = T, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000101, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  5
+                  65 state = neg, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 1,pattern mem addr = 061, pattern data = C, nucleo mem addr = 0006, nucleo data = T, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000110, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  4
+                  75 state = neg, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 1,pattern mem addr = 061, pattern data = C, nucleo mem addr = 0007, nucleo data = T, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000111, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  3
+                  85 state = neg, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 1,pattern mem addr = 061, pattern data = C, nucleo mem addr = 0008, nucleo data = T, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000001000, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  2
+datapath
+print
+0
+                  95 state = neg, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 061, pattern data = C, nucleo mem addr = 0009, nucleo data = G, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000001001, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  1
+isPos :0
+main
+isLetter
+datapath
+isPos :0
+main
+isSlash
+                 105 state = main, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 062, pattern data = C, nucleo mem addr = 000a, nucleo data = G, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000001010, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 0, count =  0
+datapath
+datapath
+print
+0
+datapath
+print
+0
+                 115 state = slash1, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 063, pattern data = A, nucleo mem addr = 000a, nucleo data = G, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000001011, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  0
+datapath
+print
+0
+datapath
+print
+0
+                 125 state = slash2, slashOne = 12, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 064, pattern data = T, nucleo mem addr = 000a, nucleo data = G, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000001100, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  0
+datapath
+print
+0
+slash3 state
+datapath
+print
+0
+                 135 state = slash3, slashOne = 11, slashTwo = 11, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 065, pattern data = G, nucleo mem addr = 000a, nucleo data = G, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000001101, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  0
+datapath
+print
+0
+isPos :0
+main
+isLetter
+datapath
+print
+1
+print
+                 145 state = main, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 066, pattern data = A, nucleo mem addr = 000b, nucleo data = G, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000001110, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  0
+datapath
+print
+1
+print
+                 155 state = main, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 067, pattern data = A, nucleo mem addr = 000c, nucleo data = G, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000001111, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  0
+datapath
+corona virus
+isPos :1
+main
+isPos
+                 165 state = main, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 068, pattern data = A, nucleo mem addr = 000d, nucleo data = G, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000010000, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 1, isNeg = 0, isLetter = 0, count =  0
+datapath
+corona virus
+pos state
+datapath
+print
+0
+pos state
+datapath
+print
+0
+pos state
+                 175 state = pos, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 00, barTwo = 00,pattern load low = 1,pattern mem addr = 069, pattern data = T, nucleo mem addr = 000d, nucleo data = G, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000010001, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  3
+datapath
+print
+0
+pos state
+datapath
+print
+0
+                 185 state = pos, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 00, barTwo = 00,pattern load low = 1,pattern mem addr = 069, pattern data = T, nucleo mem addr = 000e, nucleo data = A, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000010010, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  2
+pos state
+datapath
+print
+0
+                 195 state = pos, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 069, pattern data = T, nucleo mem addr = 000f, nucleo data = T, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000010011, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  1
+isPos :0
+main
+isLetter
+datapath
+isPos :0
+main
+isBar
+datapath
+                 205 state = main, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 06a, pattern data = T, nucleo mem addr = 0010, nucleo data = C, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000010100, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 0, count =  0
+datapath
+datapath
+print
+0
+datapath
+print
+0
+                 215 state = bar1, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 06b, pattern data = T, nucleo mem addr = 0010, nucleo data = C, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000010101, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  0
+datapath
+print
+0
+datapath
+print
+0
+                 225 state = bar2, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 00,pattern load low = 0,pattern mem addr = 06c, pattern data = C, nucleo mem addr = 0010, nucleo data = C, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000010110, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  0
+datapath
+print
+0
+isPos :0
+main
+isLetter
+datapath
+isPos :0
+main
+isNeg
+                 235 state = main, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 0,pattern mem addr = 06d, pattern data = C, nucleo mem addr = 0011, nucleo data = C, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000010111, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 1, isLetter = 0, count =  0
+datapath
+datapath
+print
+0
+datapath
+print
+0
+                 245 state = neg, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 0,pattern mem addr = 06e, pattern data = G, nucleo mem addr = 0011, nucleo data = C, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000011000, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  1
+datapath
+print
+0
+isPos :0
+main
+isLetter
+datapath
+corona virus
+isPos :1
+main
+isPos
+                 255 state = main, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 0,pattern mem addr = 06f, pattern data = G, nucleo mem addr = 0012, nucleo data = C, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000011001, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 1, isNeg = 0, isLetter = 0, count =  0
+datapath
+corona virus
+pos state
+datapath
+print
+0
+pos state
+datapath
+print
+0
+pos state
+                 265 state = pos, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 1,pattern mem addr = 070, pattern data = G, nucleo mem addr = 0012, nucleo data = C, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000011010, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  3
+datapath
+print
+0
+pos state
+                 275 state = pos, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 1,pattern mem addr = 070, pattern data = G, nucleo mem addr = 0013, nucleo data = C, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000011011, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  2
+pos state
+datapath
+print
+0
+                 285 state = pos, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 0,pattern mem addr = 070, pattern data = G, nucleo mem addr = 0014, nucleo data = A, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000011100, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  1
+isPos :0
+main
+isLetter
+datapath
+isPos :0
+main
+isNeg
+                 295 state = main, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 0,pattern mem addr = 071, pattern data = 3, nucleo mem addr = 0015, nucleo data = A, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000011101, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 1, isLetter = 0, count =  0
+datapath
+datapath
+print
+0
+datapath
+print
+0
+                 305 state = neg, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 1,pattern mem addr = 072, pattern data = G, nucleo mem addr = 0015, nucleo data = A, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000011110, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  3
+datapath
+print
+0
+                 315 state = neg, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 1,pattern mem addr = 072, pattern data = G, nucleo mem addr = 0016, nucleo data = A, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000011111, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  2
+datapath
+print
+0
+                 325 state = neg, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 0,pattern mem addr = 072, pattern data = G, nucleo mem addr = 0017, nucleo data = T, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000100000, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  1
+isPos :0
+main
+isLetter
+datapath
+print
+1
+print
+                 335 state = main, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 0,pattern mem addr = 073, pattern data = A, nucleo mem addr = 0018, nucleo data = T, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000100001, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  0
+datapath
+print
+1
+print
+datapath
+print
+1
+print
+                 345 state = main, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 0,pattern mem addr = 074, pattern data = T, nucleo mem addr = 0019, nucleo data = T, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000100010, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  0
+datapath
+print
+1
+print
+datapath
+print
+1
+print
+                 355 state = main, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 0,pattern mem addr = 075, pattern data = C, nucleo mem addr = 001a, nucleo data = T, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000100011, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  0
+datapath
+print
+1
+print
+datapath
+print
+1
+print
+                 365 state = main, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 0,pattern mem addr = 076, pattern data = C, nucleo mem addr = 001b, nucleo data = G, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000100100, ready = 0, done = 0, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0, isLetter = 1, count =  0
+datapath
+isPos :0
+main
+end of pattern
+datapath
+                 375 state = main, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 0,pattern mem addr = 077, pattern data = C, nucleo mem addr = 001c, nucleo data = G, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000100101, ready = 0, done = 1, error = 1, found_it = 0, pattern_end = 1, mismatch = 0, isRep = 1, isPos = 0, isNeg = 0, isLetter = 0, count =  0
+datapath
+done state
+                 385 state = Done, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 0,pattern mem addr = 078, pattern data = C, nucleo mem addr = 001d, nucleo data = G, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000100101, ready = 0, done = 1, error = 1, found_it = 0, pattern_end = 1, mismatch = 0, isRep = 1, isPos = 0, isNeg = 0, isLetter = 0, count =  0
+isPos :0
+main
+end of pattern
+                 395 state = main, slashOne = 13, slashTwo = 13, slashThree = 13, barOne = 11, barTwo = 10,pattern load low = 0,pattern mem addr = 079, pattern data = C, nucleo mem addr = 001d, nucleo data = G, dna_start= 0001, pattern_start= 060, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000100101, ready = 0, done = 1, error = 1, found_it = 0, pattern_end = 1, mismatch = 0, isRep = 1, isPos = 0, isNeg = 0, isLetter = 0, count =  0
+$finish called from file "lab5.sv", line 638.
+$finish at simulation time                  405
+Simulation complete, time is 405.
+Warning: [DVSW307] 
+Could not find any driver for signal: 'task1_test.isRep'.
+Warning: [DVSW307] 
+Could not find any driver for signal: 'task1_test.isRep'.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 405
+CPU Time:      0.140 seconds;       Data structure size:   0.2Mb
+Sat Apr 18 10:15:10 2020

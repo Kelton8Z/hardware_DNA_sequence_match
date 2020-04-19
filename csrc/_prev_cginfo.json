@@ -1,0 +1,93 @@
+{
+    "MlibObjs": {},
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "mapLetter": [
+            "mapLetter",
+            "wzpve",
+            "module"
+        ],
+        "task1_test": [
+            "task1_test",
+            "IS2kx",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "CompileStatus": "Successful",
+    "PrevCompiledModules": {
+        "task1_test": {
+            "IS2kx_d": {
+                "mod": "task1_test",
+                "bytes": 58714,
+                "archive": "archive.417/_37141_archive_1.a",
+                "out": "IS2kx_d.o",
+                "mode": 4
+            }
+        },
+        "mapLetter": {
+            "wzpve_d": {
+                "mod": "mapLetter",
+                "bytes": 8321,
+                "mode": 4,
+                "out": "wzpve_d.o",
+                "archive": "archive.417/_prev_archive_1.a"
+            }
+        },
+        "std": {
+            "reYIK_d": {
+                "mod": "std",
+                "bytes": 29004,
+                "mode": 4,
+                "out": "reYIK_d.o",
+                "archive": "archive.417/_prev_archive_1.a"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "mod": "...MASTER...",
+                "bytes": 7336,
+                "archive": "archive.417/_37141_archive_1.a",
+                "out": "amcQw_d.o",
+                "mode": 4
+            }
+        }
+    },
+    "CompileStrategy": "fullobj",
+    "LVLData": [
+        "SIM"
+    ],
+    "CurCompileUdps": {},
+    "CurCompileModules": [
+        "...MASTER...",
+        "task1_test"
+    ],
+    "PEModules": [],
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 83426
+    },
+    "CompileProcesses": [
+        "cgproc.37141.json"
+    ],
+    "Misc": {
+        "archive_dir": "archive.417",
+        "cwd": "/afs/ece.cmu.edu/usr/zhuoran2/Private/240/Lab5",
+        "default_output_dir": "csrc",
+        "csrc": "csrc",
+        "csrc_abs": "/afs/ece.cmu.edu/usr/zhuoran2/Private/240/Lab5/csrc",
+        "daidir_abs": "/afs/ece.cmu.edu/usr/zhuoran2/Private/240/Lab5/simv.daidir",
+        "daidir": "simv.daidir"
+    },
+    "stat": {
+        "nMops": 4191
+    }
+}

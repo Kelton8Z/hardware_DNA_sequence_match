@@ -1,0 +1,43 @@
+{
+    "CompUnits": {
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "out": "amcQw_d.o",
+            "archive": "archive.418/_37534_archive_1.a",
+            "bytes": 7336,
+            "mode": 4
+        },
+        "IS2kx_d": {
+            "mod": "task1_test",
+            "out": "IS2kx_d.o",
+            "archive": "archive.418/_37534_archive_1.a",
+            "bytes": 58714,
+            "mode": 4
+        }
+    },
+    "Modules": {
+        "...MASTER...": {},
+        "std": {},
+        "mapLetter": {},
+        "task1_test": {
+            "Compiled": "Yes",
+            "Compiled Times": 57
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.418/_37534_archive_1.a",
+            "objects": [
+                [
+                    "amcQw_d.o",
+                    7336
+                ],
+                [
+                    "IS2kx_d.o",
+                    58714
+                ]
+            ],
+            "size": 66050
+        }
+    ]
+}

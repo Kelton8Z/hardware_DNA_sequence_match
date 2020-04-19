@@ -1,0 +1,330 @@
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version J-2014.12-SP3-1_Full64; Runtime version J-2014.12-SP3-1_Full64;  Apr 10 19:14 2020
+VCD+ Writer J-2014.12-SP3-1_Full64 Copyright (c) 1991-2014 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/zhuoran2/Private/240/Lab5/inter.vpd' was opened successfully.
+corona virus
+corona virus
+                   0 state = getting_ready, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 1,pattern mem addr = 000, pattern data = 02, nucleo mem addr = 0000, nucleo data = 10, dna_start= 0000, pattern_start= 000, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000000, ready = x, done = 1, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0
+                   5 state = getting_ready, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 000, pattern data = 02, nucleo mem addr = 0000, nucleo data = 10, dna_start= 0000, pattern_start= 000, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000000, ready = 1, done = 1, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0
+isPos :0
+main
+corona virus
+                  15 state = main, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 000, pattern data = 02, nucleo mem addr = 0000, nucleo data = 10, dna_start= 0000, pattern_start= 000, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000000, ready = 0, done = 1, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0
+print
+1
+print
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version J-2014.12-SP3-1_Full64; Runtime version J-2014.12-SP3-1_Full64;  Apr 10 19:18 2020
+VCD+ Writer J-2014.12-SP3-1_Full64 Copyright (c) 1991-2014 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/zhuoran2/Private/240/Lab5/inter.vpd' was opened successfully.
+corona virus
+corona virus
+                   0 state = getting_ready, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 1,pattern mem addr = 000, pattern data = 02, nucleo mem addr = 0000, nucleo data = 10, dna_start= 0000, pattern_start= 000, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000000, ready = x, done = 1, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0
+                   5 state = getting_ready, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 000, pattern data = 02, nucleo mem addr = 0000, nucleo data = 10, dna_start= 0000, pattern_start= 000, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000000, ready = 1, done = 1, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0
+isPos :0
+main
+corona virus
+                  15 state = main, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 000, pattern data = 02, nucleo mem addr = 0000, nucleo data = 10, dna_start= 0000, pattern_start= 000, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000000, ready = 0, done = 1, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0
+print
+1
+print
+Warning: [AD-MD] Missing dump for active drivers
+  Missing dump for the following signals when doing active drivers analysis:
+      * task1_test.dut.bar1_ld_L from time 0
+      * task1_test.dut.bar2_ld_L from time 0
+      * task1_test.dut.barOne from time 0
+      * task1_test.dut.barTwo from time 0
+      * task1_test.dut.error from time 0
+      * task1_test.dut.eval from time 0
+      * task1_test.dut.isPos from time 0
+      * task1_test.dut.mapped_nucleo_data from time 0
+      * task1_test.dut.slash1_ld_L from time 0
+      * task1_test.dut.slash2_ld_L from time 0
+      * task1_test.dut.slash3_ld_L from time 0
+      * task1_test.dut.slashOne from time 0
+      * task1_test.dut.slashThree from time 0
+      * task1_test.dut.slashTwo from time 0
+      * task1_test.dut.symbol from time 0
+  Some drivers couldn't be analyzed and will be shown as active.
+  Please dump the listed signals if you need more precise active drivers 
+  analysis.
+neric.sdb'
+7 drivers (7 possibly active statements) found for signal: task1_test.dut.f.isPos
+Warning: [AD-MD] Missing dump for active drivers
+  Missing dump for the following signals when doing active drivers analysis:
+      * task1_test.dut.m1.Data from time 0
+      * task1_test.dut.m1.out from time 0
+      * task1_test.dut.m1.re from time 0
+  Some drivers couldn't be analyzed and will be shown as active.
+  Please dump the listed signals if you need more precise active drivers 
+  analysis.
+1 driver (1 active statement) found for signal: Sim:task1_test.dut.pattern_data[7:0]
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version J-2014.12-SP3-1_Full64; Runtime version J-2014.12-SP3-1_Full64;  Apr 10 19:25 2020
+VCD+ Writer J-2014.12-SP3-1_Full64 Copyright (c) 1991-2014 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/zhuoran2/Private/240/Lab5/inter.vpd' was opened successfully.
+corona virus
+corona virus
+                   0 state = getting_ready, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 1,pattern mem addr = 000, pattern data = 02, nucleo mem addr = 0000, nucleo data = 10, dna_start= 0000, pattern_start= 000, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000000, ready = x, done = 1, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0
+                   5 state = getting_ready, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 000, pattern data = 02, nucleo mem addr = 0000, nucleo data = 10, dna_start= 0000, pattern_start= 000, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000000, ready = 1, done = 1, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0
+isPos :0
+main
+corona virus
+                  15 state = main, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 000, pattern data = 02, nucleo mem addr = 0000, nucleo data = 10, dna_start= 0000, pattern_start= 000, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000000, ready = 0, done = 1, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0
+print
+1
+print
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version J-2014.12-SP3-1_Full64; Runtime version J-2014.12-SP3-1_Full64;  Apr 10 19:28 2020
+VCD+ Writer J-2014.12-SP3-1_Full64 Copyright (c) 1991-2014 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/zhuoran2/Private/240/Lab5/inter.vpd' was opened successfully.
+corona virus
+corona virus
+                   0 state = getting_ready, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 1,pattern mem addr = 000, pattern data = 02, nucleo mem addr = 0000, nucleo data = 10, dna_start= 0000, pattern_start= 000, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000000, ready = x, done = 1, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0
+                   5 state = getting_ready, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 000, pattern data = 02, nucleo mem addr = 0000, nucleo data = 10, dna_start= 0000, pattern_start= 000, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000000, ready = 1, done = 1, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0
+isPos :0
+main
+corona virus
+                  15 state = main, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 000, pattern data = 02, nucleo mem addr = 0000, nucleo data = 10, dna_start= 0000, pattern_start= 000, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000000, ready = 0, done = 1, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0
+print
+1
+print
+3 drivers (1 active statement) found for signal: task1_test.dut.cnt_data[5:0]
+Warning: [AD-MD] Missing dump for active drivers
+  Missing dump for the following signals when doing active drivers analysis:
+      * task1_test.dut.bar1_ld_L from time 0
+      * task1_test.dut.bar2_ld_L from time 0
+      * task1_test.dut.barOne from time 0
+      * task1_test.dut.barTwo from time 0
+      * task1_test.dut.error from time 0
+      * task1_test.dut.eval from time 0
+      * task1_test.dut.mapped_nucleo_data from time 0
+      * task1_test.dut.slash1_ld_L from time 0
+      * task1_test.dut.slash2_ld_L from time 0
+      * task1_test.dut.slash3_ld_L from time 0
+      * task1_test.dut.slashOne from time 0
+      * task1_test.dut.slashThree from time 0
+      * task1_test.dut.slashTwo from time 0
+      * task1_test.dut.symbol from time 0
+  Some drivers couldn't be analyzed and will be shown as active.
+  Please dump the listed signals if you need more precise active drivers 
+  analysis.
+7 drivers (6 possibly active statements) found for signal: task1_test.dut.isBar
+Warning: [AD-MD] Missing dump for active drivers
+  Missing dump for the following signals when doing active drivers analysis:
+      * task1_test.dut.m1.Data from time 0
+      * task1_test.dut.m1.out from time 0
+      * task1_test.dut.m1.re from time 0
+  Some drivers couldn't be analyzed and will be shown as active.
+  Please dump the listed signals if you need more precise active drivers 
+  analysis.
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version J-2014.12-SP3-1_Full64; Runtime version J-2014.12-SP3-1_Full64;  Apr 10 19:30 2020
+VCD+ Writer J-2014.12-SP3-1_Full64 Copyright (c) 1991-2014 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/zhuoran2/Private/240/Lab5/inter.vpd' was opened successfully.
+corona virus
+corona virus
+                   0 state = getting_ready, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 1,pattern mem addr = 000, pattern data = 02, nucleo mem addr = 0000, nucleo data = 10, dna_start= 0000, pattern_start= 000, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000000, ready = x, done = 1, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0
+                   5 state = getting_ready, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 000, pattern data = 02, nucleo mem addr = 0000, nucleo data = 10, dna_start= 0000, pattern_start= 000, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000000, ready = 1, done = 1, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0
+isPos :0
+main
+corona virus
+                  15 state = main, slashOne = 00, slashTwo = 00, slashThree = 00, barOne = 00, barTwo = 00,pattern load low = 0,pattern mem addr = 000, pattern data = 02, nucleo mem addr = 0000, nucleo data = 10, dna_start= 0000, pattern_start= 000, dna_length = xxxxxxxxxxxxxxxx, duration = 000000000000000000000000, ready = 0, done = 1, error = 0, found_it = 0, pattern_end = 0, mismatch = 0, isRep = 0, isPos = 0, isNeg = 0
+print
+1
+print
+3 drivers (1 active statement) found for signal: task1_test.dut.init_count
+---------------------------------------------
+
+The tool has just detected a severe internal error:
+
+SEGV exception handled in internal functions.
+
+
+Release = 'J-2014.12-SP3-1_Full64'  Architecture = 'amd64'  Program = 'DVE'
+
+'33560479 33587166 33589108 139659826770928'
+
+---------------------------------------------
+=======================DVE Context and Call Stack=========================
+Command line: /usr/local/synopsys/vcs-mx_vJ-2014.12/gui/dve/amd64/bin/dve.exe -full64 -ucliplatform=amd64 -toolargs "-ucligui -toolexe ./simv  -pid 38562" -toolin /tmp/vcs_20200410231435_38561_zhuoran2..stdin -toolout /tmp/vcs_20200410231435_38561_zhuoran2..stdout
+=======================DVE Context and Call Stack=========================
+
+--- Stack trace follows:
+Command line: /usr/local/synopsys/vcs-mx_vJ-2014.12/gui/dve/amd64/bin/dve.exe -full64 -ucliplatform=amd64 -toolargs "-ucligui -toolexe ./simv  -pid 38562" -toolin /tmp/vcs_20200410231435_38561_zhuoran2..stdin -toolout /tmp/vcs_20200410231435_38561_zhuoran2..stdout
+
+--- Stack trace follows:
+[Thread debugging using libthread_db enabled]
+[New Thread 0x7f0513ee3700 (LWP 38790)]
+[New Thread 0x7f05146e4700 (LWP 38786)]
+
+warning: no loadable sections found in added symbol-file system-supplied DSO at 0x7ffc017ec000
+0x00007f05166624a9 in waitpid () from /lib64/libc.so.6
+
+Thread 3 (Thread 0x7f05146e4700 (LWP 38786)):
+#0  0x00007f05166624a9 in waitpid () from /lib64/libc.so.6
+#1  0x00007f05165dff52 in do_system () from /lib64/libc.so.6
+#2  0x00007f05165e0301 in system () from /lib64/libc.so.6
+#3  0x00007f051964ebb5 in SNPSle_10ee25eff68cd8461c9146fa1d0b35e87067f3c8015b313e639d2928478c79b3f673f99203bcf8be64600612100082236bffb2007f1e0ef9 () from /usr/local/synopsys/vcs-mx_vJ-2014.12/amd64/lib/liberrorinf.so
+#4  0x00007f051964f17b in SNPSle_10ee25eff68cd8461c9146fa1d0b35e87067f3c8015b313e81c34e9ac4c8988ef4a6e067b3aa9271e9f15440f9e8f69ebc77e2fd65860faa () from /usr/local/synopsys/vcs-mx_vJ-2014.12/amd64/lib/liberrorinf.so
+#5  0x00007f05196504a6 in SNPSle_10ee25eff68cd8461c9146fa1d0b35e87067f3c8015b313efba706aab251478fa49e66610e453774633a6c152e7ef778f2202cda681f3d4e () from /usr/local/synopsys/vcs-mx_vJ-2014.12/amd64/lib/liberrorinf.so
+#6  0x00007f051964812d in SNPSle_d35ca1ff70d465c2b9b1a72eee90a506fdd009d3de3db1de () from /usr/local/synopsys/vcs-mx_vJ-2014.12/amd64/lib/liberrorinf.so
+#7  0x0000000002007f89 in ag::logErrorMessage(ag::errorType, QString const&, bool) ()
+#8  0x0000000002008867 in ?? ()
+#9  0x00007f05165d6cb9 in __run_exit_handlers () from /lib64/libc.so.6
+#10 0x00007f05165d6d27 in exit () from /lib64/libc.so.6
+#11 0x00000000028b97fc in ?? ()
+#12 0x00007f05174ec2be in _XIOError () from /lib64/libX11.so.6
+#13 0x00007f05174e9c1d in _XEventsQueued () from /lib64/libX11.so.6
+#14 0x00007f05174c61f4 in XCheckTypedEvent () from /lib64/libX11.so.6
+#15 0x00000000011125d4 in ag::dveXThread::run() ()
+#16 0x000000000290c3ba in QThreadInstance::start(void*) ()
+#17 0x00007f051827eea5 in start_thread () from /lib64/libpthread.so.0
+#18 0x00007f051669b8cd in clone () from /lib64/libc.so.6
+
+Thread 2 (Thread 0x7f0513ee3700 (LWP 38790)):
+#0  0x00007f051668c9ad in read () from /lib64/libc.so.6
+#1  0x00007f0516618cb4 in __GI__IO_file_underflow () from /lib64/libc.so.6
+#2  0x00007f0516619e82 in __GI__IO_default_uflow () from /lib64/libc.so.6
+#3  0x00007f051660cc34 in __GI__IO_getline_info () from /lib64/libc.so.6
+#4  0x00007f051660ba36 in fgets () from /lib64/libc.so.6
+#5  0x00000000012268df in ag::dveSmlSocket::run() ()
+#6  0x000000000290c3ba in QThreadInstance::start(void*) ()
+#7  0x00007f051827eea5 in start_thread () from /lib64/libpthread.so.0
+#8  0x00007f051669b8cd in clone () from /lib64/libc.so.6
+
+Thread 1 (Thread 0x7f0519e62840 (LWP 38577)):
+#0  0x00007f05166624a9 in waitpid () from /lib64/libc.so.6
+#1  0x00007f05165dff52 in do_system () from /lib64/libc.so.6
+#2  0x00007f05165e0301 in system () from /lib64/libc.so.6
+#3  0x00007f051964ebb5 in SNPSle_10ee25eff68cd8461c9146fa1d0b35e87067f3c8015b313e639d2928478c79b3f673f99203bcf8be64600612100082236bffb2007f1e0ef9 () from /usr/local/synopsys/vcs-mx_vJ-2014.12/amd64/lib/liberrorinf.so
+#4  0x00007f051964f17b in SNPSle_10ee25eff68cd8461c9146fa1d0b35e87067f3c8015b313e81c34e9ac4c8988ef4a6e067b3aa9271e9f15440f9e8f69ebc77e2fd65860faa () from /usr/local/synopsys/vcs-mx_vJ-2014.12/amd64/lib/liberrorinf.so
+#5  0x00007f05196504a6 in SNPSle_10ee25eff68cd8461c9146fa1d0b35e87067f3c8015b313efba706aab251478fa49e66610e453774633a6c152e7ef778f2202cda681f3d4e () from /usr/local/synopsys/vcs-mx_vJ-2014.12/amd64/lib/liberrorinf.so
+#6  0x00007f051964812d in SNPSle_d35ca1ff70d465c2b9b1a72eee90a506fdd009d3de3db1de () from /usr/local/synopsys/vcs-mx_vJ-2014.12/amd64/lib/liberrorinf.so
+#7  0x0000000002007f89 in ag::logErrorMessage(ag::errorType, QString const&, bool) ()
+#8  0x0000000002008774 in ?? ()
+#9  <signal handler called>
+#10 0x00007f05165d6c3d in __run_exit_handlers () from /lib64/libc.so.6
+#11 0x00007f05165d6d27 in exit () from /lib64/libc.so.6
+#12 0x00000000028b97fc in ?? ()
+#13 0x00007f05174ec2be in _XIOError () from /lib64/libX11.so.6
+#14 0x00007f05174ea3ab in _XReply () from /lib64/libX11.so.6
+#15 0x00007f05174e01be in XQueryPointer () from /lib64/libX11.so.6
+#16 0x00000000028cf60f in QCursor::pos() ()
+#17 0x0000000002a49432 in QTabBar::paint(QPainter*, QTab*, bool) const ()
+#18 0x0000000002a48d1a in QTabBar::paintEvent(QPaintEvent*) ()
+#19 0x0000000002989abf in QWidget::event(QEvent*) ()
+#20 0x000000000291303d in QApplication::internalNotify(QObject*, QEvent*) ()
+#21 0x000000000291327e in QApplication::notify(QObject*, QEvent*) ()
+#22 0x000000000207b8d6 in EkExtQtApp::notify(QObject*, QEvent*) ()
+#23 0x000000000204c6d8 in ag::baseQtApp::notify(QObject*, QEvent*) ()
+#24 0x00000000028becad in QETWidget::translatePaintEvent(_XEvent const*) ()
+#25 0x00000000028c7c2d in QApplication::x11ProcessEvent(_XEvent*) ()
+#26 0x00000000028d55da in QEventLoop::processEvents(unsigned int) ()
+#27 0x0000000001157855 in ag::ovaEventLoop::processEvents(unsigned int) ()
+#28 0x0000000002922dc9 in QEventLoop::enterLoop() ()
+#29 0x0000000002922d4a in QEventLoop::exec() ()
+#30 0x000000000115718b in run_cci_event_loop ()
+#31 0x000000000111370f in ag::ovaAppInst::enterEventLoop(int, char**) ()
+#32 0x0000000000e21821 in main ()
+No context available
+==========================================================================
+/bin/cat: /tmp/.stack_annotator_gdb_output_file_lmMsFU: No such file or directory
+---------------------------------------------
+
+The tool has just exited abnormally:
+
+
+Release = 'J-2014.12-SP3-1_Full64'  Architecture = 'amd64'  Program = 'DVE'
+
+'33560838 33587166 33589351 139659826785465 139659830518432'
+
+---------------------------------------------
+=======================DVE Context and Call Stack=========================
+Command line: /usr/local/synopsys/vcs-mx_vJ-2014.12/gui/dve/amd64/bin/dve.exe -full64 -ucliplatform=amd64 -toolargs "-ucligui -toolexe ./simv  -pid 38562" -toolin /tmp/vcs_20200410231435_38561_zhuoran2..stdin -toolout /tmp/vcs_20200410231435_38561_zhuoran2..stdout
+=======================DVE Context and Call Stack=========================
+
+--- Stack trace follows:
+Command line: /usr/local/synopsys/vcs-mx_vJ-2014.12/gui/dve/amd64/bin/dve.exe -full64 -ucliplatform=amd64 -toolargs "-ucligui -toolexe ./simv  -pid 38562" -toolin /tmp/vcs_20200410231435_38561_zhuoran2..stdin -toolout /tmp/vcs_20200410231435_38561_zhuoran2..stdout
+
+--- Stack trace follows:
+[Thread debugging using libthread_db enabled]
+[New Thread 0x7f0513ee3700 (LWP 38790)]
+[New Thread 0x7f05146e4700 (LWP 38786)]
+
+warning: no loadable sections found in added symbol-file system-supplied DSO at 0x7ffc017ec000
+0x00007f05166624a9 in waitpid () from /lib64/libc.so.6
+
+Thread 3 (Thread 0x7f05146e4700 (LWP 38786)):
+#0  0x00007f05166624a9 in waitpid () from /lib64/libc.so.6
+#1  0x00007f05165dff52 in do_system () from /lib64/libc.so.6
+#2  0x00007f05165e0301 in system () from /lib64/libc.so.6
+#3  0x00007f051964ebb5 in SNPSle_10ee25eff68cd8461c9146fa1d0b35e87067f3c8015b313e639d2928478c79b3f673f99203bcf8be64600612100082236bffb2007f1e0ef9 () from /usr/local/synopsys/vcs-mx_vJ-2014.12/amd64/lib/liberrorinf.so
+#4  0x00007f051964f17b in SNPSle_10ee25eff68cd8461c9146fa1d0b35e87067f3c8015b313e81c34e9ac4c8988ef4a6e067b3aa9271e9f15440f9e8f69ebc77e2fd65860faa () from /usr/local/synopsys/vcs-mx_vJ-2014.12/amd64/lib/liberrorinf.so
+#5  0x00007f05196504a6 in SNPSle_10ee25eff68cd8461c9146fa1d0b35e87067f3c8015b313efba706aab251478fa49e66610e453774633a6c152e7ef778f2202cda681f3d4e () from /usr/local/synopsys/vcs-mx_vJ-2014.12/amd64/lib/liberrorinf.so
+#6  0x00007f051964812d in SNPSle_d35ca1ff70d465c2b9b1a72eee90a506fdd009d3de3db1de () from /usr/local/synopsys/vcs-mx_vJ-2014.12/amd64/lib/liberrorinf.so
+#7  0x0000000002007f89 in ag::logErrorMessage(ag::errorType, QString const&, bool) ()
+#8  0x0000000002008867 in ?? ()
+#9  0x00007f05165d6cb9 in __run_exit_handlers () from /lib64/libc.so.6
+#10 0x00007f05165d6d27 in exit () from /lib64/libc.so.6
+#11 0x00000000028b97fc in ?? ()
+#12 0x00007f05174ec2be in _XIOError () from /lib64/libX11.so.6
+#13 0x00007f05174e9c1d in _XEventsQueued () from /lib64/libX11.so.6
+#14 0x00007f05174c61f4 in XCheckTypedEvent () from /lib64/libX11.so.6
+#15 0x00000000011125d4 in ag::dveXThread::run() ()
+#16 0x000000000290c3ba in QThreadInstance::start(void*) ()
+#17 0x00007f051827eea5 in start_thread () from /lib64/libpthread.so.0
+#18 0x00007f051669b8cd in clone () from /lib64/libc.so.6
+
+Thread 2 (Thread 0x7f0513ee3700 (LWP 38790)):
+#0  0x00007f051668c9ad in read () from /lib64/libc.so.6
+#1  0x00007f0516618cb4 in __GI__IO_file_underflow () from /lib64/libc.so.6
+#2  0x00007f0516619e82 in __GI__IO_default_uflow () from /lib64/libc.so.6
+#3  0x00007f051660cc34 in __GI__IO_getline_info () from /lib64/libc.so.6
+#4  0x00007f051660ba36 in fgets () from /lib64/libc.so.6
+#5  0x00000000012268df in ag::dveSmlSocket::run() ()
+#6  0x000000000290c3ba in QThreadInstance::start(void*) ()
+#7  0x00007f051827eea5 in start_thread () from /lib64/libpthread.so.0
+#8  0x00007f051669b8cd in clone () from /lib64/libc.so.6
+
+Thread 1 (Thread 0x7f0519e62840 (LWP 38577)):
+#0  0x00007f05166624a9 in waitpid () from /lib64/libc.so.6
+#1  0x00007f05165dff52 in do_system () from /lib64/libc.so.6
+#2  0x00007f05165e0301 in system () from /lib64/libc.so.6
+#3  0x00007f051964ebb5 in SNPSle_10ee25eff68cd8461c9146fa1d0b35e87067f3c8015b313e639d2928478c79b3f673f99203bcf8be64600612100082236bffb2007f1e0ef9 () from /usr/local/synopsys/vcs-mx_vJ-2014.12/amd64/lib/liberrorinf.so
+#4  0x00007f051964f17b in SNPSle_10ee25eff68cd8461c9146fa1d0b35e87067f3c8015b313e81c34e9ac4c8988ef4a6e067b3aa9271e9f15440f9e8f69ebc77e2fd65860faa () from /usr/local/synopsys/vcs-mx_vJ-2014.12/amd64/lib/liberrorinf.so
+#5  0x00007f05196504a6 in SNPSle_10ee25eff68cd8461c9146fa1d0b35e87067f3c8015b313efba706aab251478fa49e66610e453774633a6c152e7ef778f2202cda681f3d4e () from /usr/local/synopsys/vcs-mx_vJ-2014.12/amd64/lib/liberrorinf.so
+#6  0x00007f051964812d in SNPSle_d35ca1ff70d465c2b9b1a72eee90a506fdd009d3de3db1de () from /usr/local/synopsys/vcs-mx_vJ-2014.12/amd64/lib/liberrorinf.so
+#7  0x0000000002007f89 in ag::logErrorMessage(ag::errorType, QString const&, bool) ()
+#8  0x0000000002008774 in ?? ()
+#9  <signal handler called>
+#10 0x00007f05165d6c3d in __run_exit_handlers () from /lib64/libc.so.6
+#11 0x00007f05165d6d27 in exit () from /lib64/libc.so.6
+#12 0x00000000028b97fc in ?? ()
+#13 0x00007f05174ec2be in _XIOError () from /lib64/libX11.so.6
+#14 0x00007f05174ea3ab in _XReply () from /lib64/libX11.so.6
+#15 0x00007f05174e01be in XQueryPointer () from /lib64/libX11.so.6
+#16 0x00000000028cf60f in QCursor::pos() ()
+#17 0x0000000002a49432 in QTabBar::paint(QPainter*, QTab*, bool) const ()
+#18 0x0000000002a48d1a in QTabBar::paintEvent(QPaintEvent*) ()
+#19 0x0000000002989abf in QWidget::event(QEvent*) ()
+#20 0x000000000291303d in QApplication::internalNotify(QObject*, QEvent*) ()
+#21 0x000000000291327e in QApplication::notify(QObject*, QEvent*) ()
+#22 0x000000000207b8d6 in EkExtQtApp::notify(QObject*, QEvent*) ()
+#23 0x000000000204c6d8 in ag::baseQtApp::notify(QObject*, QEvent*) ()
+#24 0x00000000028becad in QETWidget::translatePaintEvent(_XEvent const*) ()
+#25 0x00000000028c7c2d in QApplication::x11ProcessEvent(_XEvent*) ()
+#26 0x00000000028d55da in QEventLoop::processEvents(unsigned int) ()
+#27 0x0000000001157855 in ag::ovaEventLoop::processEvents(unsigned int) ()
+#28 0x0000000002922dc9 in QEventLoop::enterLoop() ()
+#29 0x0000000002922d4a in QEventLoop::exec() ()
+#30 0x000000000115718b in run_cci_event_loop ()
+#31 0x000000000111370f in ag::ovaAppInst::enterEventLoop(int, char**) ()
+#32 0x0000000000e21821 in main ()
+No context available
+==========================================================================
